@@ -1,0 +1,36 @@
+.nav {
+  padding-top: 10px;
+  padding-bottom: 0%;
+}
+
+.nav_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation_list {
+  ul {
+    display: flex;
+  }
+
+  li:not(:last-child) {
+    margin-right: 30px;
+    font-weight: bolder;
+  }
+
+  a {
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover::after {
+      color: red;
+    }
+  }
+}
