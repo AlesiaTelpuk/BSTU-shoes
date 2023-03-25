@@ -1,8 +1,16 @@
 //Abstracts
-@import "./sass/base/typography";
 @import "./sass/abstracts/functions";
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/placeholders";
 
 
 //Blocks
+@import "./sass/base/reset";
+@import "./sass/base/typography";
 @import "./sass/base/navigation";
-@import "./sass/base/header"
+@import "./sass/base/header";
+@import "./sass/base/novinki";
+@import "./sass/base/brands";
+@import "./sass/base/buyers";
+@import "./sass/base/price";
