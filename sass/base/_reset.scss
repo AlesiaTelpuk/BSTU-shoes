@@ -1,0 +1,42 @@
+//Основное, то, что применяется для всего
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//Для контейнера в шапке и в подвале
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+//Для контейнера основного контента
+.container2 {
+  max-width: 1024px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 87px;
+  padding-right: 87px;
+}
+
+input,
+button {
+  border: none;
+  font-family: inherit;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
