@@ -1,0 +1,71 @@
+.basement_row {
+  position: relative;
+  margin-top: 30px;
+}
+
+.basement_logo {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.basement_menu {
+  position: absolute;
+  margin-top: 30px;
+  right: 442px;
+
+  li {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: opacity 0.3s linear;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $colorB;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+.basement_contacts {
+  position: absolute;
+  margin-top: 30px;
+  right: 70px;
+}
+
+.basement_li_cont {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.basement_icons {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.basement_creat {
+  position: absolute;
+  bottom: 10px;
+  width: 800px;
+  @include in_one_lineal;
+  margin-left: 100px;
+}

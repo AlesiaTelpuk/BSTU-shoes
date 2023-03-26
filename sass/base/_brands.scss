@@ -1,5 +1,4 @@
 .brand_img_row {
-  display: flex;
-  justify-content: space-between;
+  @include in_rad;
   margin-top: 10px;
 }

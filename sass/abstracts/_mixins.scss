@@ -1,1 +1,11 @@
 //Миксины
+@mixin in_one_lineal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin in_rad {
+  display: flex;
+  justify-content: space-between;
+}

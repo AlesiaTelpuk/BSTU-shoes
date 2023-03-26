@@ -1,12 +1,12 @@
 .rad_nom1 {
-  display: flex;
-  justify-content: space-between;
+  @include in_rad;
+  position: relative;
 }
 
 .rad_nom2 {
-  display: flex;
-  justify-content: space-between;
+  @include in_rad;
   margin-top: 30px;
+  position: relative;
 }
 
 .h5_r {
@@ -14,6 +14,12 @@
   margin-bottom: 10px;
 }
 
-h1::first-letter {
-  color: rgba(243, 242, 248, 1);
+.card_tov {
+  text-decoration: none;
+  color: inherit;
+  transition: filter 0.5s ease-in;
+
+  &:hover {
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.25));
+  }
 }

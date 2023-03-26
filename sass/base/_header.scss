@@ -1,6 +1,3 @@
-.header {}
-
-
 .header_row {
   position: relative;
 }
@@ -9,14 +6,19 @@
   position: absolute;
   margin-top: 15px;
   margin-left: 15px;
-  color: white;
+  color: $colorW;
 }
 
 .header_title2 {
   position: absolute;
-  color: white;
+  color: $colorW;
   margin-top: 75px;
   margin-left: 25px;
 }
 
-.header_img {}
+.button_header {
+
+  margin-left: 810px;
+  line-height: 30px;
+  margin-top: 365px;
+}
