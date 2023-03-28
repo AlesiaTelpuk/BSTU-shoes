@@ -14,11 +14,51 @@
   color: $colorW;
   margin-top: 75px;
   margin-left: 25px;
+  width: 336px;
 }
 
 .button_header {
-
   margin-left: 810px;
   line-height: 30px;
   margin-top: 365px;
+}
+
+.header_img {
+  border-radius: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .button_header {
+    margin-left: 572px;
+    margin-top: 325px;
+  }
+
+  .header_img {
+    width: 744px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header_img {
+    width: 296px;
+    height: 153px;
+  }
+
+  .header_title {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .header_title2 {
+    margin-top: 32px;
+    margin-left: 10px;
+    width: 227px;
+  }
+
+  .button_header {
+    margin-left: 156px;
+    margin-top: 113px;
+  }
 }

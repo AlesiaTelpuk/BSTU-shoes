@@ -1,4 +1,12 @@
 .brand_img_row {
   @include in_rad;
   margin-top: 10px;
+  flex-wrap: wrap;
+
+}
+
+@media (max-width: 320px) {
+  .convers {
+    margin: 0px auto;
+  }
 }

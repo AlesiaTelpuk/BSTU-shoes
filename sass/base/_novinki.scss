@@ -1,25 +1,40 @@
-.rad_nom1 {
-  @include in_rad;
-  position: relative;
-}
-
-.rad_nom2 {
-  @include in_rad;
-  margin-top: 30px;
-  position: relative;
-}
-
 .h5_r {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
 .card_tov {
+
   text-decoration: none;
   color: inherit;
   transition: filter 0.5s ease-in;
+  margin-bottom: 30px;
 
   &:hover {
     filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.card_row {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+@media (max-width: 768px) {
+  .tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .mobile {
+    display: none;
+  }
+
+  .card_tov {
+    margin: 0px auto;
   }
 }

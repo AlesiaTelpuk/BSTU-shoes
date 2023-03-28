@@ -1,8 +1,46 @@
 .price_column {
   @include in_rad;
+}
+
+.price_col {
   margin-top: 10px;
+  width: 232px;
+  height: 101px;
+  margin-bottom: 30px;
 }
 
 .price_col_row {
   margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .price_col {
+    width: 190px;
+    height: 143px;
+  }
+}
+
+@media (max-width: 320px) {
+  .price_column {
+    flex-wrap: wrap;
+  }
+
+  .price_col {
+    width: 131px;
+    height: 108px;
+    margin-top: 5px;
+  }
+
+  .col_1 {
+    margin-bottom: -10px;
+  }
+
+  .price_col_row {
+    // исправить шрифты
+    font-weight: 500px;
+  }
+
+  .col_3 {
+    margin: 0px auto;
+  }
 }

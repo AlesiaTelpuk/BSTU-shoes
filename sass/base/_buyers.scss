@@ -8,12 +8,24 @@
   margin-left: 27px;
 }
 
-.video {
-  margin-top: 30px;
-}
 
 .videos {
+  margin-top: 30px;
   border-radius: 20px;
   width: 850px;
   height: 400px;
+}
+
+@media (max-width: 768px) {
+  .videos {
+    width: 634px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .videos {
+    width: 276px;
+    height: 150px;
+  }
 }

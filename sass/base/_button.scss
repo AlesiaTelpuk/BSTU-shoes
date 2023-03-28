@@ -1,7 +1,7 @@
 .button {
   position: absolute;
   width: 130px;
-  height: 30px;
+  height: 35px;
   color: $colorB;
   background-color: $colorW;
   border-radius: 5px;
@@ -16,7 +16,7 @@
 .button1 {
   position: absolute;
   width: 130px;
-  height: 30px;
+  height: 35px;
   line-height: 30px;
   color: $colorW;
   background-color: $colorB;
@@ -32,6 +32,20 @@
 
 .button_row {
   padding-left: 360px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+
+  padding-bottom: 30px; // тут изменить надо на маржин и поменять в других местах
+}
+
+@media (max-width: 768px) {
+  .button_row {
+    padding-left: 249px;
+  }
+}
+
+@media (max-width: 320px) {
+  .button_row {
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+  }
 }

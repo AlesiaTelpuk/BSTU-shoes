@@ -1,6 +1,11 @@
 .basement_row {
   position: relative;
   margin-top: 30px;
+  width: 1000px;
+  height: 228px;
+  background-color: $color_grey;
+  border-radius: 20px;
+
 }
 
 .basement_logo {
@@ -68,4 +73,72 @@
   width: 800px;
   @include in_one_lineal;
   margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .basement_row {
+    width: 744px;
+    height: 228px;
+  }
+
+  .basement_logo {
+    margin-top: 20px;
+  }
+
+  .basement_menu {
+    margin-top: 20px;
+    right: 303px;
+  }
+
+  .basement_contacts {
+    margin-top: 20px;
+    right: 15px;
+  }
+
+  .basement_creat {
+    width: 651px;
+    margin-left: 63px;
+  }
+}
+
+@media (max-width: 320px) {
+  .basement_row {
+    width: 296px;
+    height: 190px;
+  }
+
+  .basement_logo {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .basement_menu {
+    margin-top: 40px;
+    right: 190px;
+  }
+
+  .basement_contacts {
+    margin-top: 40px;
+    right: 0px;
+  }
+
+  .basement_creat {
+    width: 269px;
+    margin-left: 13px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .basement_li_cont {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .link {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
 }

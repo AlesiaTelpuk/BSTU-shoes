@@ -6,14 +6,15 @@
 
 
 //Blocks
+@import "./sass/base/basement";
 @import "./sass/base/button";
-@import "./sass/base/reset";
-@import "./sass/base/typography";
+@import "./sass/base/feedback";
+@import "./sass/base/header";
 @import "./sass/base/navigation";
 @import "./sass/base/header";
 @import "./sass/base/novinki";
 @import "./sass/base/brands";
 @import "./sass/base/buyers";
 @import "./sass/base/price";
-@import "./sass/base/feedback";
-@import "./sass/base/basement";
+@import "./sass/base/reset";
+@import "./sass/base/typography";
