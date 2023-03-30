@@ -1,5 +1,5 @@
 .buyers_h2 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .buyers_p {
@@ -8,9 +8,13 @@
   margin-left: 27px;
 }
 
+.buyers {
+  margin-top: 30px;
+}
+
 
 .videos {
-  margin-top: 30px;
+  margin-top: 20px;
   border-radius: 20px;
   width: 850px;
   height: 400px;
@@ -20,6 +24,17 @@
   .videos {
     width: 634px;
     height: 300px;
+    margin-top: 43px;
+  }
+
+  .buyers_p {
+    margin-left: 57px;
+  }
+
+  .buyers_h2 {
+    margin-top: 8px;
+    margin-left: 14px;
+
   }
 }
 
@@ -27,5 +42,18 @@
   .videos {
     width: 276px;
     height: 150px;
+    margin-top: 60px;
+  }
+
+  .buyers {
+    margin-top: 50px;
+  }
+
+  .buyers_h2 {
+    margin-left: 0px;
+  }
+
+  .buyers_p {
+    margin-left: 25px;
   }
 }

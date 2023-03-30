@@ -27,9 +27,6 @@ body {
   margin: 0px auto;
 }
 
-.otstup {
-  margin-top: 30px;
-}
 
 input,
 button {
@@ -47,6 +44,7 @@ input:focus,
 button:focus {
   outline: none;
 }
+
 
 @media (max-width: 768px) {
   .container {

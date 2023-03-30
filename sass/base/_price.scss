@@ -2,6 +2,10 @@
   @include in_rad;
 }
 
+.price {
+  margin-top: 30px;
+}
+
 .price_col {
   margin-top: 10px;
   width: 232px;
@@ -17,6 +21,15 @@
   .price_col {
     width: 190px;
     height: 143px;
+  }
+
+  .button_row {
+    margin-top: -14px;
+    margin-left: 5px;
+  }
+
+  .button_price {
+    margin-top: -10px;
   }
 }
 
@@ -42,5 +55,9 @@
 
   .col_3 {
     margin: 0px auto;
+  }
+
+  .button_price {
+    margin-top: 60px;
   }
 }

@@ -5,7 +5,10 @@
   color: $colorB;
   background-color: $colorW;
   border-radius: 5px;
-  transition: background-color 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
 
   &:hover {
     background-color: $colorB;
@@ -21,8 +24,11 @@
   color: $colorW;
   background-color: $colorB;
   border-radius: 5px;
-  transition: background-color 0.2s ease-in;
+  transition: all 0.2s ease-in;
   z-index: 1;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
 
   &:hover {
     background-color: $colorW;
@@ -32,8 +38,6 @@
 
 .button_row {
   padding-left: 360px;
-
-  padding-bottom: 30px; // тут изменить надо на маржин и поменять в других местах
 }
 
 @media (max-width: 768px) {

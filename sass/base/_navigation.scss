@@ -20,11 +20,14 @@
   }
 
   li:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 15px;
   }
 }
 
 .nav_link {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
   font-weight: 600;
   text-decoration: none;
   color: inherit;
@@ -59,5 +62,8 @@
     height: 20px;
   }
 
+  .nav {
+    margin-top: -7px;
+  }
 
 }

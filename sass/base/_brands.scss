@@ -5,8 +5,22 @@
 
 }
 
+.brand_row {
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .brand_row {
+    margin-top: 80px;
+  }
+}
+
 @media (max-width: 320px) {
   .convers {
     margin: 0px auto;
   }
+}
+
+.brands {
+  margin-top: 40px;
 }
