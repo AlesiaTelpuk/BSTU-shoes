@@ -28,15 +28,8 @@
   border-radius: 20px;
 }
 
-.form_input {
-  border: 1px solid $colorW;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  width: 232px;
-  height: 35px;
-  background-color: $colorB;
-  padding-left: 10px;
-}
+
+
 
 
 
@@ -54,6 +47,22 @@
 
 .form_li {
   list-style-type: none;
+
+  input {
+    border: 1px solid $colorW;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 232px;
+    height: 35px;
+    background-color: $colorB;
+    padding-left: 10px;
+    color: $color_grey;
+  }
+
+  input::placeholder {
+    color: $color_grey;
+
+  }
 }
 
 @media (max-width: 768px) {
