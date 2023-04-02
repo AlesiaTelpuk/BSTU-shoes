@@ -11,7 +11,7 @@
 .basement_logo {
   position: absolute;
   margin-left: 20px;
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 .basement_menu {
@@ -83,22 +83,27 @@
   }
 
   .basement_logo {
-    margin-top: 15px;
+    margin-top: 17px;
+    margin-left: 18px;
   }
 
   .basement_menu {
-    margin-top: 15px;
-    right: 312px;
+    margin-top: 17px;
+    right: 315px;
   }
 
   .basement_contacts {
-    margin-top: 15px;
+    margin-top: 17px;
     right: 21px;
+
+    img {
+      margin-top: 7px;
+    }
   }
 
   .basement_creat {
     width: 651px;
-    bottom: 15px;
+    bottom: 14px;
     margin-left: 63px;
   }
 }
@@ -116,12 +121,16 @@
 
   .basement_menu {
     margin-top: 40px;
-    right: 190px;
+    right: 195px;
   }
 
   .basement_contacts {
     margin-top: 40px;
-    right: 0px;
+    right: 12px;
+
+    img {
+      margin-left: 10px;
+    }
   }
 
   .basement_creat {

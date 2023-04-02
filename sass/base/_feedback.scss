@@ -1,5 +1,5 @@
 .feedback {
-  margin-top: 60px;
+  margin-top: 61px;
 }
 
 .feedback_row {
@@ -70,27 +70,31 @@
   }
 
   .feedback_text_h4 {
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 0px;
     width: 344px;
   }
 
   .form {
-    margin-top: 12px;
+    margin-top: 16px;
     right: 10px;
+
+    button {
+      margin-top: 2px;
+    }
   }
 
   .feedback {
-    margin-top: 60px;
+    margin-top: 56px;
   }
 
   .feedback_email {
-    margin-top: 63px;
+    margin-top: 66px;
   }
 
   .feedback_text {
     margin-left: 20px;
-    margin-top: 12px;
+    margin-top: 16px;
   }
 }
 
@@ -98,25 +102,32 @@
   .feedback_background {
     width: 276px;
     height: 340px;
+    margin-top: 7px;
   }
 
 
+  .feedback_text {
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 264px;
+  }
+
   .feedback_text_h4 {
-    margin-left: 0px;
+    margin-top: 8px;
     width: 264px;
   }
 
   .form {
-    padding-top: 121px;
-    margin: 0px auto;
+    margin-top: 121px;
+    right: 15px;
   }
 
   .feedback_email {
-    margin-top: 202px;
+    margin-top: 203px;
   }
 
   .feedback {
-    margin-top: 90px;
+    margin-top: 83px;
   }
 
 }

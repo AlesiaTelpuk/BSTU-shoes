@@ -1,10 +1,14 @@
-.buyers_h2 {
-  margin-top: 20px;
+.buyers_h2_of {
+  margin-top: 10px;
+}
+
+.buyers_h2_sp {
+  margin-top: 29px;
 }
 
 .buyers_p {
 
-  margin-top: 5px;
+  margin-top: 3px;
   margin-left: 27px;
 }
 
@@ -14,7 +18,7 @@
 
 
 .videos {
-  margin-top: 20px;
+  margin-top: 24px;
   border-radius: 20px;
   width: 850px;
   height: 400px;
@@ -24,17 +28,20 @@
   .videos {
     width: 634px;
     height: 300px;
-    margin-top: 43px;
+    margin-top: 30px;
   }
 
   .buyers_p {
     margin-left: 57px;
   }
 
-  .buyers_h2 {
+  .buyers_h2_of {
     margin-top: 8px;
     margin-left: 14px;
+  }
 
+  .buyers_h2_sp {
+    margin-left: 14px;
   }
 }
 
@@ -42,15 +49,21 @@
   .videos {
     width: 276px;
     height: 150px;
-    margin-top: 60px;
+    margin-top: 35px;
   }
 
   .buyers {
     margin-top: 50px;
   }
 
-  .buyers_h2 {
+  .buyers_h2_of {
     margin-left: 0px;
+    margin-top: 12px;
+  }
+
+  .buyers_h2_sp {
+    margin-left: 0px;
+    margin-top: 39px;
   }
 
   .buyers_p {

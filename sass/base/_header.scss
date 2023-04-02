@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .button_header {
-    margin-left: 572px;
+    margin-left: 574px;
     margin-top: 325px;
   }
 
@@ -50,6 +50,10 @@
 }
 
 @media (max-width: 320px) {
+  .header {
+    margin-top: -4px;
+  }
+
   .header_img {
     width: 296px;
     height: 153px;
