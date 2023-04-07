@@ -9,6 +9,12 @@
   color: $colorW;
 }
 
+.header {
+  @media screen and (max-width:767px) {
+    z-index: -1;
+  }
+}
+
 .header_title2 {
   position: absolute;
   color: $colorW;
@@ -25,6 +31,7 @@
 
 .header_img {
   border-radius: 20px;
+  z-index: -1;
 }
 
 
@@ -36,6 +43,8 @@
 
   .header {
     margin-top: -2px;
+
+
   }
 
   .header_img {
@@ -48,6 +57,8 @@
     margin-left: 20px;
   }
 }
+
+
 
 @media (max-width: 320px) {
   .header {
