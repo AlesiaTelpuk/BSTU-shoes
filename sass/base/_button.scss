@@ -1,0 +1,55 @@
+.button {
+  position: absolute;
+  width: 130px;
+  height: 35px;
+  color: $colorB;
+  background-color: $colorW;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  &:hover {
+    background-color: $colorB;
+    color: $colorW;
+  }
+}
+
+.button1 {
+  position: absolute;
+  width: 130px;
+  height: 35px;
+  line-height: 30px;
+  color: $colorW;
+  background-color: $colorB;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  &:hover {
+    background-color: $colorW;
+    color: $colorB;
+  }
+}
+
+.button_row {
+  padding-left: 360px;
+}
+
+@media (max-width: 768px) {
+  .button_row {
+    padding-left: 249px;
+  }
+}
+
+@media (max-width: 320px) {
+  .button_row {
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,75 @@
+//Основное, то, что применяется для всего
+
+body {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+* {
+  //box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//Для контейнера в шапке и в подвале
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+//Для контейнера основного контента
+.container2 {
+  margin-top: 30px;
+  max-width: 850px;
+  margin: 0px auto;
+}
+
+
+input,
+button {
+  border: none;
+  font-family: inherit;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+  background: none;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 744px;
+  }
+
+  .container2 {
+    max-width: 634px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 296px;
+  }
+
+  .container2 {
+    max-width: 276px;
+  }
+
+  body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

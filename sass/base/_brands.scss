@@ -1,0 +1,30 @@
+.brand_img_row {
+  @include in_rad;
+  margin-top: 10px;
+  flex-wrap: wrap;
+
+}
+
+.brand_row {
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .brand_row {
+    margin-top: 8px;
+  }
+
+  .brands {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 320px) {
+  .convers {
+    margin: 0px auto;
+  }
+
+  .brands {
+    margin-top: 47px;
+  }
+}
