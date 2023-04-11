@@ -40,6 +40,30 @@
   padding-left: 360px;
 }
 
+.button_category {
+  width: 130px;
+  height: 25px;
+  border: 1px solid $colorB;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  transition: all 0.2s ease-in;
+  margin-left: 37px;
+
+  &:hover {
+    background-color: $colorB;
+    color: $colorW;
+  }
+}
+
+.active {
+  background-color: $colorB;
+  color: $colorW;
+}
+
 @media (max-width: 768px) {
   .button_row {
     padding-left: 249px;
@@ -51,5 +75,12 @@
     margin-top: 30px;
     padding-left: 70px;
     padding-bottom: 30px;
+  }
+
+  .button_category {
+    width: 70px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 7px;
   }
 }
