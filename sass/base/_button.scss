@@ -42,7 +42,7 @@
 
 .button_category {
   width: 130px;
-  height: 25px;
+  height: 20px;
   border: 1px solid $colorB;
   border-radius: 5px;
   font-family: 'Montserrat';
@@ -53,13 +53,13 @@
   transition: all 0.2s ease-in;
   margin-left: 37px;
 
-  &:hover {
-    background-color: $colorB;
-    color: $colorW;
-  }
+  // &:hover {
+  //   background-color: $colorB;
+  //   color: $colorW;
+  // }
 }
 
-.active {
+.button_color {
   background-color: $colorB;
   color: $colorW;
 }

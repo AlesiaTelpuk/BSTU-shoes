@@ -179,7 +179,7 @@
 
 .button_category {
   width: 130px;
-  height: 25px;
+  height: 20px;
   border: 1px solid black;
   border-radius: 5px;
   font-family: "Montserrat";
@@ -190,12 +190,8 @@
   transition: all 0.2s ease-in;
   margin-left: 37px;
 }
-.button_category:hover {
-  background-color: black;
-  color: white;
-}
 
-.active {
+.button_color {
   background-color: black;
   color: white;
 }
@@ -651,6 +647,15 @@ nav {
   justify-content: space-between;
 }
 
+.novinki_name_buttons ul {
+  display: flex;
+}
+.novinki_name_buttons ul li {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 5px;
+}
+
 .button_novinki {
   margin-top: 3px;
 }
@@ -671,9 +676,14 @@ nav {
 .card_row {
   padding-top: 10px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0px auto;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (max-width: 768px) {

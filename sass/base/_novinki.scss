@@ -13,6 +13,18 @@
   justify-content: space-between;
 }
 
+.novinki_name_buttons {
+  ul {
+    display: flex;
+
+    li {
+      list-style-type: none;
+      text-align: center;
+      padding-top: 5px;
+    }
+  }
+}
+
 .button_novinki {
   margin-top: 3px;
 }
@@ -37,9 +49,14 @@
 .card_row {
   padding-top: 10px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0px auto;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (max-width: 768px) {
