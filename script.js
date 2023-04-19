@@ -24,13 +24,10 @@ category.forEach(function (item) {
 
     // выбрать нужные карточки товара и показать их
     //найдем все селекторы с таким же id
-    const CardTov = document.querySelectorAll('#' + this.dataset.category);
+    const CardTov = document.querySelectorAll('.' + this.dataset.category);
+    console.log(CardTov);
     CardTov.forEach(function (elem) {
       elem.classList.remove('hidden');
     })
   })
 });
-
-
-
-

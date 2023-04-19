@@ -179,7 +179,7 @@
 
 .button_category {
   width: 130px;
-  height: 20gipx;
+  height: 25px;
   border: 1px solid black;
   border-radius: 5px;
   font-family: "Montserrat";
@@ -653,7 +653,7 @@ nav {
 .novinki_name_buttons ul li {
   list-style-type: none;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 3px;
 }
 
 .button_novinki {
