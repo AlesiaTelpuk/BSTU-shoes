@@ -686,6 +686,16 @@ nav {
   display: none;
 }
 
+.arrows {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  z-index: 2;
+  width: 100%;
+  justify-content: space-between;
+  transition: all 2s;
+}
+
 @media (max-width: 768px) {
   .novinki {
     margin-top: 26px;
@@ -715,6 +725,67 @@ nav {
     margin-top: 1px;
   }
 }
+.arrow {
+  cursor: pointer;
+  height: 60px;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 50px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-left {
+  cursor: pointer;
+  height: 60px;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 50px;
+}
+
+.arrow-top,
+.arrow-bottom {
+  background-color: black;
+  height: 4px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrow-top-left,
+.arrow-bottom-left {
+  background-color: black;
+  height: 4px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrow-top {
+  transform: rotate(45deg);
+  transform-origin: right;
+}
+
+.arrow-bottom {
+  transform: rotate(-45deg);
+  transform-origin: right;
+}
+
+.arrow-top-left {
+  transform: rotate(-135deg);
+  transform-origin: right;
+}
+
+.arrow-bottom-left {
+  transform: rotate(135deg);
+  transform-origin: right;
+}
+
 .brand_img_row {
   display: flex;
   justify-content: space-between;

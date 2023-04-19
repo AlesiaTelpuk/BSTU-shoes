@@ -47,6 +47,7 @@
 }
 
 .card_row {
+  //position: relative;
   padding-top: 10px;
   display: flex;
   flex-direction: row;
@@ -57,6 +58,33 @@
 
 .hidden {
   display: none;
+}
+
+// .photo__slider {
+//   position: relative;
+//   height: 200px;
+//   overflow-x: hidden;
+// }
+
+// .slider {
+//   display: flex;
+//   width: 300%;
+//   position: absolute;
+//   left: -100%;
+//   transition-duration: 3s;
+// }
+
+.arrows {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  //position: absolute;
+  z-index: 2;
+  width: 100%;
+  justify-content: space-between;
+  //top: calc(50% - 10px);
+  //opacity: 0;
+  transition: all 2s;
 }
 
 @media (max-width: 768px) {
@@ -96,4 +124,71 @@
   .button_novinki {
     margin-top: 1px;
   }
+}
+
+.arrow {
+  cursor: pointer;
+  height: 60px;
+  //left: 50%;
+  //position: absolute;
+  //top: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 50px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-left {
+  cursor: pointer;
+  height: 60px;
+  //left: 50%;
+  //position: absolute;
+  //top: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 50px;
+}
+
+.arrow-top,
+.arrow-bottom {
+  background-color: black;
+  height: 4px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrow-top-left,
+.arrow-bottom-left {
+  background-color: black;
+  height: 4px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrow-top {
+  transform: rotate(45deg);
+  transform-origin: right;
+}
+
+.arrow-bottom {
+  transform: rotate(-45deg);
+  transform-origin: right;
+}
+
+.arrow-top-left {
+  transform: rotate(-135deg);
+  transform-origin: right;
+}
+
+.arrow-bottom-left {
+  transform: rotate(135deg);
+  transform-origin: right;
 }
