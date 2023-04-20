@@ -686,19 +686,31 @@ nav {
   display: none;
 }
 
+.photo__slider {
+  position: relative;
+}
+
 .arrows {
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
   display: flex;
+  position: absolute;
   z-index: 2;
-  width: 100%;
+  width: 110%;
+  left: -40px;
   justify-content: space-between;
+  top: calc(50% - 15px);
+  opacity: 0;
   transition: all 2s;
 }
 
 @media (max-width: 768px) {
   .novinki {
     margin-top: 26px;
+  }
+  .arrows {
+    width: 115%;
+    left: -43px;
   }
   .card_row {
     margin-bottom: 18px;
@@ -711,6 +723,11 @@ nav {
   }
 }
 @media (max-width: 320px) {
+  .arrows {
+    width: 115%;
+    left: -20px;
+    top: 100%;
+  }
   .nav_row {
     margin-top: 6px;
     margin-left: -3px;
@@ -727,10 +744,10 @@ nav {
 }
 .arrow {
   cursor: pointer;
-  height: 60px;
+  height: 30px;
   transform: translateX(-50%) translateY(-50%);
   transition: transform 0.1s;
-  width: 50px;
+  width: 30px;
 }
 
 .arrows {
@@ -740,16 +757,16 @@ nav {
 
 .arrow-left {
   cursor: pointer;
-  height: 60px;
+  height: 30px;
   transform: translateX(-50%) translateY(-50%);
   transition: transform 0.1s;
-  width: 50px;
+  width: 30px;
 }
 
 .arrow-top,
 .arrow-bottom {
   background-color: black;
-  height: 4px;
+  height: 3px;
   left: -5px;
   position: absolute;
   top: 50%;
@@ -759,7 +776,7 @@ nav {
 .arrow-top-left,
 .arrow-bottom-left {
   background-color: black;
-  height: 4px;
+  height: 3px;
   left: -5px;
   position: absolute;
   top: 50%;
