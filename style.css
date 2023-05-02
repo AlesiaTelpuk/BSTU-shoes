@@ -18,6 +18,7 @@
   margin-top: 30px;
   right: 442px;
 }
+
 .basement_menu li {
   list-style-type: none;
   margin-top: 5px;
@@ -30,6 +31,7 @@
   position: relative;
   transition: opacity 0.3s linear;
 }
+
 .link::after {
   content: "";
   display: block;
@@ -42,6 +44,7 @@
   z-index: 1;
   opacity: 0;
 }
+
 .link:hover::after {
   opacity: 1;
 }
@@ -78,47 +81,58 @@
     width: 744px;
     height: 228px;
   }
+
   .basement_logo {
     margin-top: 17px;
     margin-left: 18px;
   }
+
   .basement_menu {
     margin-top: 17px;
     right: 315px;
   }
+
   .basement_contacts {
     margin-top: 17px;
     right: 21px;
   }
+
   .basement_contacts img {
     margin-top: 7px;
   }
+
   .basement_creat {
     width: 651px;
     bottom: 14px;
     margin-left: 63px;
   }
 }
+
 @media (max-width: 320px) {
   .basement_row {
     width: 296px;
     height: 190px;
   }
+
   .basement_logo {
     margin-top: 10px;
     margin-left: 10px;
   }
+
   .basement_menu {
     margin-top: 40px;
     right: 195px;
   }
+
   .basement_contacts {
     margin-top: 40px;
     right: 12px;
   }
+
   .basement_contacts img {
     margin-left: 10px;
   }
+
   .basement_creat {
     width: 269px;
     margin-left: 13px;
@@ -126,17 +140,20 @@
     font-size: 10px;
     line-height: 12px;
   }
+
   .basement_li_cont {
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;
   }
+
   .link {
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;
   }
 }
+
 .button {
   position: absolute;
   width: 130px;
@@ -149,6 +166,7 @@
   font-size: 15px;
   line-height: 18px;
 }
+
 .button:hover {
   background-color: black;
   color: white;
@@ -168,6 +186,7 @@
   font-size: 15px;
   line-height: 18px;
 }
+
 .button1:hover {
   background-color: white;
   color: black;
@@ -201,12 +220,14 @@
     padding-left: 249px;
   }
 }
+
 @media (max-width: 320px) {
   .button_row {
     margin-top: 30px;
     padding-left: 70px;
     padding-bottom: 30px;
   }
+
   .button_category {
     width: 70px;
     font-size: 12px;
@@ -214,6 +235,7 @@
     margin-left: 7px;
   }
 }
+
 .feedback {
   margin-top: 61px;
 }
@@ -256,6 +278,7 @@
 .form_li {
   list-style-type: none;
 }
+
 .form_li input {
   border: 1px solid white;
   border-radius: 5px;
@@ -267,9 +290,11 @@
   color: rgb(243, 242, 248);
   font-size: 12px;
 }
+
 .form_li input::-moz-placeholder {
   color: rgb(243, 242, 248);
 }
+
 .form_li input::placeholder {
   color: rgb(243, 242, 248);
 }
@@ -279,55 +304,68 @@
     width: 634px;
     height: 240px;
   }
+
   .feedback_text_h4 {
     margin-top: 3px;
     margin-left: 0px;
     width: 344px;
   }
+
   .form {
     margin-top: 16px;
     right: 10px;
   }
+
   .form button {
     margin-top: 2px;
   }
+
   .feedback {
     margin-top: 56px;
   }
+
   .feedback_email {
     margin-top: 66px;
   }
+
   .feedback_text {
     margin-left: 20px;
     margin-top: 16px;
   }
 }
+
 @media (max-width: 320px) {
   .feedback_background {
     width: 276px;
     height: 340px;
     margin-top: 7px;
   }
+
   .feedback_text {
     margin-left: 10px;
     margin-top: 8px;
     width: 264px;
   }
+
   .feedback_text_h4 {
     margin-top: 8px;
     width: 264px;
   }
+
   .form {
     margin-top: 121px;
     right: 15px;
   }
+
   .feedback_email {
     margin-top: 203px;
   }
+
   .feedback {
     margin-top: 83px;
   }
 }
+
 .header_row {
   position: relative;
 }
@@ -369,40 +407,49 @@
     margin-left: 574px;
     margin-top: 325px;
   }
+
   .header {
     margin-top: -2px;
   }
+
   .header_img {
     width: 744px;
     height: 380px;
   }
+
   .header_title2 {
     margin-top: 65px;
     margin-left: 20px;
   }
 }
+
 @media (max-width: 320px) {
   .header {
     margin-top: -4px;
   }
+
   .header_img {
     width: 296px;
     height: 153px;
   }
+
   .header_title {
     margin-top: 5px;
     margin-left: 5px;
   }
+
   .header_title2 {
     margin-top: 32px;
     margin-left: 10px;
     width: 227px;
   }
+
   .button_header {
     margin-left: 156px;
     margin-top: 113px;
   }
 }
+
 nav {
   padding-top: 7px;
   padding-bottom: 0%;
@@ -418,6 +465,7 @@ nav {
 .menu-btn {
   opacity: 0;
 }
+
 @media screen and (max-width: 767px) {
   .menu-btn {
     opacity: 1;
@@ -427,13 +475,16 @@ nav {
 .nav_ul {
   display: flex;
 }
+
 .nav_ul li {
   list-style-type: none;
   justify-content: space-between;
 }
+
 .nav_ul li:not(:last-child) {
   margin-right: 15px;
 }
+
 @media screen and (max-width: 767px) {
   .nav_ul {
     position: fixed;
@@ -467,6 +518,7 @@ nav {
   position: relative;
   transition: opacity 0.3s linear;
 }
+
 .nav_link::after {
   content: "";
   display: block;
@@ -479,9 +531,11 @@ nav {
   z-index: 1;
   opacity: 0;
 }
+
 .nav_link:hover::after {
   opacity: 1;
 }
+
 @media screen and (max-width: 767px) {
   .nav_link {
     font-family: "Montserrat";
@@ -497,10 +551,12 @@ nav {
     width: 117.45px;
     height: 20px;
   }
+
   .nav {
     margin-top: -7px;
   }
 }
+
 .menu-btn {
   display: flex;
   align-items: center;
@@ -513,9 +569,9 @@ nav {
   z-index: 3;
 }
 
-.menu-btn > span,
-.menu-btn > span::before,
-.menu-btn > span::after {
+.menu-btn>span,
+.menu-btn>span::before,
+.menu-btn>span::after {
   display: block;
   position: absolute;
   width: 100%;
@@ -524,12 +580,12 @@ nav {
   transition-duration: 0.25s;
 }
 
-.menu-btn > span::before {
+.menu-btn>span::before {
   content: "";
   top: -4px;
 }
 
-.menu-btn > span::after {
+.menu-btn>span::after {
   content: "";
   top: 4px;
 }
@@ -538,21 +594,21 @@ nav {
   opacity: 0;
 }
 
-#menu-toggle:checked ~ .menu-btn > span {
+#menu-toggle:checked~.menu-btn>span {
   transform: rotate(45deg);
 }
 
-#menu-toggle:checked ~ .menu-btn > span::before {
+#menu-toggle:checked~.menu-btn>span::before {
   top: 0;
   transform: rotate(0);
 }
 
-#menu-toggle:checked ~ .menu-btn > span::after {
+#menu-toggle:checked~.menu-btn>span::after {
   top: 0;
   transform: rotate(90deg);
 }
 
-#menu-toggle:checked ~ .nav_ul {
+#menu-toggle:checked~.nav_ul {
   visibility: visible;
   right: 0px;
 }
@@ -598,40 +654,49 @@ nav {
     margin-left: 574px;
     margin-top: 325px;
   }
+
   .header {
     margin-top: -2px;
   }
+
   .header_img {
     width: 744px;
     height: 380px;
   }
+
   .header_title2 {
     margin-top: 65px;
     margin-left: 20px;
   }
 }
+
 @media (max-width: 320px) {
   .header {
     margin-top: -4px;
   }
+
   .header_img {
     width: 296px;
     height: 153px;
   }
+
   .header_title {
     margin-top: 5px;
     margin-left: 5px;
   }
+
   .header_title2 {
     margin-top: 32px;
     margin-left: 10px;
     width: 227px;
   }
+
   .button_header {
     margin-left: 156px;
     margin-top: 113px;
   }
 }
+
 .h5_r {
   margin-top: -3px;
   margin-bottom: 10px;
@@ -650,6 +715,7 @@ nav {
 .novinki_name_buttons ul {
   display: flex;
 }
+
 .novinki_name_buttons ul li {
   list-style-type: none;
   text-align: center;
@@ -666,9 +732,11 @@ nav {
   transition: filter 0.5s ease-in;
   margin-bottom: 30px;
 }
+
 .card_tov h6 {
   margin-top: -3px;
 }
+
 .card_tov:hover {
   filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.25));
 }
@@ -714,7 +782,9 @@ nav {
   opacity: 0;
   transition: all 2s;
 }
-.slider:hover + .arrows, .arrows:hover {
+
+.slider:hover+.arrows,
+.arrows:hover {
   opacity: 1;
 }
 
@@ -727,10 +797,12 @@ nav {
   0% {
     left: -100%;
   }
+
   100% {
     left: -200%;
   }
 }
+
 .move_right {
   animation-name: move_right;
   animation-duration: 2s;
@@ -740,51 +812,64 @@ nav {
   0% {
     left: -100%;
   }
+
   100% {
     left: 0%;
   }
 }
+
 @media (max-width: 768px) {
   .novinki {
     margin-top: 26px;
   }
+
   .arrows {
     width: 100%;
     left: 3px;
   }
+
   .card_row {
     margin-bottom: 18px;
   }
+
   .button_novinki {
     margin-left: -4px;
   }
+
   .tablet {
     display: none;
   }
 }
+
 @media (max-width: 320px) {
   .photo__slider {
     height: 343px;
   }
+
   .arrows {
     width: 100%;
     left: 20px;
     top: 90%;
   }
+
   .nav_row {
     margin-top: 6px;
     margin-left: -3px;
   }
+
   .mobile {
     display: none;
   }
+
   .card_tov {
     margin-left: 25px;
   }
+
   .button_novinki {
     margin-top: 1px;
   }
 }
+
 .arrow {
   cursor: pointer;
   height: 30px;
@@ -861,18 +946,22 @@ nav {
   .brand_row {
     margin-top: 8px;
   }
+
   .brands {
     margin-top: 85px;
   }
 }
+
 @media (max-width: 320px) {
   .convers {
     margin: 0px auto;
   }
+
   .brands {
     margin-top: 47px;
   }
 }
+
 .buyers_h2_of {
   margin-top: 10px;
 }
@@ -903,38 +992,47 @@ nav {
     height: 300px;
     margin-top: 30px;
   }
+
   .buyers_p {
     margin-left: 57px;
   }
+
   .buyers_h2_of {
     margin-top: 8px;
     margin-left: 14px;
   }
+
   .buyers_h2_sp {
     margin-left: 14px;
   }
 }
+
 @media (max-width: 320px) {
   .videos {
     width: 276px;
     height: 150px;
     margin-top: 35px;
   }
+
   .buyers {
     margin-top: 50px;
   }
+
   .buyers_h2_of {
     margin-left: 0px;
     margin-top: 12px;
   }
+
   .buyers_h2_sp {
     margin-left: 0px;
     margin-top: 39px;
   }
+
   .buyers_p {
     margin-left: 25px;
   }
 }
+
 .price_column {
   display: flex;
   justify-content: space-between;
@@ -960,39 +1058,49 @@ nav {
     width: 190px;
     height: 143px;
   }
+
   .button_row {
     margin-top: -16px;
     margin-left: 5px;
   }
+
   .button_price {
     margin-top: -10px;
   }
 }
+
 @media (max-width: 320px) {
   .price {
     margin-top: 21px;
   }
+
   .price_column {
     flex-wrap: wrap;
   }
+
   .price_col {
     width: 131px;
     height: 108px;
     margin-top: 5px;
   }
+
   .col_1 {
     margin-bottom: 3px;
   }
+
   .price_col_row {
     font-weight: 500px;
   }
+
   .col_3 {
     margin: 0px auto;
   }
+
   .button_price {
     margin-top: 47px;
   }
 }
+
 body {
   font-family: "Montserrat";
   font-style: normal;
@@ -1038,17 +1146,21 @@ button:focus {
   .container {
     max-width: 744px;
   }
+
   .container2 {
     max-width: 634px;
   }
 }
+
 @media (max-width: 320px) {
   .container {
     max-width: 296px;
   }
+
   .container2 {
     max-width: 276px;
   }
+
   body {
     font-family: "Montserrat";
     font-style: normal;
@@ -1057,6 +1169,7 @@ button:focus {
     line-height: 15px;
   }
 }
+
 h1 {
   font-family: "Montserrat";
   font-style: normal;
@@ -1110,13 +1223,17 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+
   h2 {
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
   }
+
   h4 {
     font-size: 12px;
     line-height: 15px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
