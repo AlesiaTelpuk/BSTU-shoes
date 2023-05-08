@@ -479,11 +479,43 @@ nav {
   z-index: 1;
   opacity: 0;
 }
-.nav_link:hover::after {
+.nav_link:hover::after,
+.nav_link :active {
   opacity: 1;
 }
 @media screen and (max-width: 767px) {
   .nav_link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.nav_link_active {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: opacity 0.3s linear;
+}
+.nav_link_active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 767px) {
+  .nav_link_active {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -1119,4 +1151,99 @@ h6 {
     font-size: 12px;
     line-height: 15px;
   }
+}
+.header_row_calc {
+  position: relative;
+}
+.header_row_calc h1 {
+  color: white;
+}
+
+.header_title_calc {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.header_img_calc {
+  z-index: -1;
+}
+
+.mystery_box {
+  margin-top: 26px;
+}
+
+.box_info {
+  margin-top: 10px;
+}
+
+.box_info2 {
+  margin-left: 23px;
+  margin-top: 5px;
+}
+
+.calc_column {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 27px;
+}
+
+.calc_but {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.calc_input {
+  width: 40px;
+  height: 24px;
+  background-color: rgb(243, 242, 248);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.calc_column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calc_column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.calc_column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 23px;
+}
+
+.calc_column4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+.calc_column5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 36px;
+}
+
+.calc_column6 {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
