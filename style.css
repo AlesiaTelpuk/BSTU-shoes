@@ -82,6 +82,9 @@
     width: 744px;
     height: 228px;
   }
+  .basement_calc {
+    margin-top: 98px;
+  }
   .basement_logo {
     margin-top: 17px;
     margin-left: 18px;
@@ -1169,6 +1172,30 @@ h6 {
   left: 15px;
 }
 
+@media (max-width: 768px) {
+  .header_row_calc img {
+    width: 744px;
+    height: 200px;
+  }
+  .header_title_calc {
+    top: 20px;
+    left: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .header_row_calc {
+    margin-top: 5px;
+  }
+  .header_row_calc img {
+    width: 296px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .header_title_calc {
+    top: 5px;
+    left: 5px;
+  }
+}
 .header_img_calc {
   z-index: -1;
 }
@@ -1188,9 +1215,14 @@ h6 {
 
 .calc_column {
   display: flex;
+}
+
+.calc_column_row {
+  display: flex;
   margin-top: 30px;
   margin-left: 20px;
   margin-bottom: 27px;
+  flex-wrap: wrap;
 }
 
 .calc_but {
@@ -1250,4 +1282,60 @@ h6 {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .box_info2 {
+    margin-left: 15px;
+  }
+  .button_calc {
+    margin-top: 12px;
+    margin-left: -12px;
+  }
+  .calc_column_row {
+    margin-left: 12px;
+  }
+  .calc_column6 {
+    margin-left: 59px;
+  }
+}
+@media (max-width: 320px) {
+  .calc_column_row {
+    margin-top: 45px;
+    margin-left: 7px;
+  }
+  .calc_column1 h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .calc_column3 {
+    margin-left: -25px;
+  }
+  .calc_column4 {
+    margin-left: 15px;
+  }
+  .calc_column5 {
+    margin-left: 11px;
+  }
+  .calc_column6 {
+    margin-top: 10px;
+    margin-left: 39px;
+  }
+  .calc_column6 h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .button_calc {
+    margin-left: 8px;
+    margin-top: 3px;
+  }
+  .basement_calc {
+    margin-top: 38px;
+  }
 }/*# sourceMappingURL=style.css.map */
