@@ -75,27 +75,27 @@
               <h6>(25 BY)</h6>
             </div>
             <div class="calc_column3">
-              <button class="calc_but">-</button>
-              <button class="calc_but">-</button>
-              <button class="calc_but">-</button>
-              <button class="calc_but">-</button>
+              <button class="calc_but" id="btnMinusShoes">-</button>
+              <button class="calc_but" id="btnMinusShirt">-</button>
+              <button class="calc_but" id="btnMinusSocks">-</button>
+              <button class="calc_but" id="btnMinusGlass">-</button>
             </div>
             <div class="calc_column4">
-              <input class="calc_input" type="text" value="0">
-              <input class="calc_input" type="text" value="0">
-              <input class="calc_input" type="text" value="0">
-              <input class="calc_input" type="text" value="0">
+              <input class="calc_input" type="text" value="0" id="intShoes">
+              <input class="calc_input" type="text" value="0" id="intShirt">
+              <input class="calc_input" type="text" value="0" id="intSocks">
+              <input class="calc_input" type="text" value="0" id="intGlass">
             </div>
             <div class="calc_column5">
-              <button class="calc_but">+</button>
-              <button class="calc_but">+</button>
-              <button class="calc_but">+</button>
-              <button class="calc_but">+</button>
+              <button class="calc_but" id="btnPlusShoes">+</button>
+              <button class="calc_but" id="btnPlusShirt">+</button>
+              <button class="calc_but" id="btnPlusSocks">+</button>
+              <button class="calc_but" id="btnPLusGlass">+</button>
             </div>
           </div>
           <div class="calc_column6">
             <h2>Стоимость бокса: </h2>
-            <h2><span>0 BY</span></h2>
+            <h2 id="Price"><span>0 BY</span></h2>
           </div>
         </div>
         <div class="button_row button_calc">
@@ -147,6 +147,7 @@
       </div>
     </div>
   </div>
+  <script src="./calc.js"></script>
 </body>
 
 </html>
