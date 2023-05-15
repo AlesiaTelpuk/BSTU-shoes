@@ -1,0 +1,247 @@
+.h5_r {
+  margin-top: -3px;
+  margin-bottom: 10px;
+}
+
+.novinki {
+  margin-top: 25px;
+}
+
+.novinki_row_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.novinki_name_buttons {
+  ul {
+    display: flex;
+
+    li {
+      list-style-type: none;
+      text-align: center;
+      padding-top: 3px;
+    }
+  }
+}
+
+.button_novinki {
+  margin-top: 3px;
+}
+
+.card_tov {
+
+  text-decoration: none;
+  color: inherit;
+  transition: filter 0.5s ease-in;
+  margin-bottom: 30px;
+
+  h6 {
+    margin-top: -3px;
+  }
+
+
+  &:hover {
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.card_row {
+  //position: relative;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+.hiddens {
+  display: none;
+}
+
+.photo__slider {
+  position: relative;
+  height: 659px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  transition-duration: 4s;
+}
+
+.arrows {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 0px;
+  justify-content: space-between;
+  top: calc(50% - 15px);
+  opacity: 0;
+  transition: all 2s;
+
+  .slider:hover+&,
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.move_left {
+  animation-name: move_left;
+  animation-duration: 2s;
+}
+
+@keyframes move_left {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: -200%;
+  }
+}
+
+.move_right {
+  animation-name: move_right;
+  animation-duration: 2s;
+}
+
+@keyframes move_right {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .novinki {
+    margin-top: 26px;
+  }
+
+  .arrows {
+    width: 100%;
+    left: 3px;
+  }
+
+  .card_row {
+    margin-bottom: 18px;
+  }
+
+  .button_novinki {
+    margin-left: -4px;
+  }
+
+
+  .tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo__slider {
+    height: 343px;
+  }
+
+  .arrows {
+    width: 100%;
+    left: 20px;
+    top: 90%;
+  }
+
+  .nav_row {
+    margin-top: 6px;
+    margin-left: -3px;
+  }
+
+
+  .mobile {
+    display: none;
+  }
+
+  .card_tov {
+    margin-left: 25px;
+  }
+
+  .button_novinki {
+    margin-top: 1px;
+  }
+}
+
+//Кнопки слайдера
+.arrow {
+  cursor: pointer;
+  height: 30px;
+  //left: 50%;
+  //position: absolute;
+  //top: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 30px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-left {
+  cursor: pointer;
+  height: 30px;
+  //left: 50%;
+  //position: absolute;
+  //top: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.1s;
+  width: 30px;
+}
+
+.arrow-top,
+.arrow-bottom {
+  background-color: black;
+  height: 3px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrow-top-left,
+.arrow-bottom-left {
+  background-color: black;
+  height: 3px;
+  left: -5px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.arrow-top {
+  transform: rotate(45deg);
+  transform-origin: right;
+}
+
+.arrow-bottom {
+  transform: rotate(-45deg);
+  transform-origin: right;
+}
+
+.arrow-top-left {
+  transform: rotate(-135deg);
+  transform-origin: right;
+}
+
+.arrow-bottom-left {
+  transform: rotate(135deg);
+  transform-origin: right;
+}

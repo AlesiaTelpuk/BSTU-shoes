@@ -1,0 +1,163 @@
+.basement_row {
+  position: relative;
+  margin-top: 30px;
+  width: 1000px;
+  height: 228px;
+  background-color: $color_grey;
+  border-radius: 20px;
+
+}
+
+.basement_calc {
+  margin-top: 95px;
+}
+
+.basement_logo {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 32px;
+}
+
+.basement_menu {
+  position: absolute;
+  margin-top: 30px;
+  right: 442px;
+
+  li {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: opacity 0.3s linear;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $colorB;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+.basement_contacts {
+  position: absolute;
+  margin-top: 30px;
+  right: 70px;
+
+}
+
+.basement_li_cont {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.basement_icons {
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+.basement_creat {
+  position: absolute;
+  bottom: 10px;
+  width: 800px;
+  @include in_one_lineal;
+  margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .basement_row {
+    width: 744px;
+    height: 228px;
+  }
+
+  .basement_calc {
+    margin-top: 98px;
+  }
+
+  .basement_logo {
+    margin-top: 17px;
+    margin-left: 18px;
+  }
+
+  .basement_menu {
+    margin-top: 17px;
+    right: 315px;
+  }
+
+  .basement_contacts {
+    margin-top: 17px;
+    right: 21px;
+
+    img {
+      margin-top: 7px;
+    }
+  }
+
+  .basement_creat {
+    width: 651px;
+    bottom: 14px;
+    margin-left: 63px;
+  }
+}
+
+@media (max-width: 320px) {
+  .basement_row {
+    width: 296px;
+    height: 190px;
+  }
+
+  .basement_logo {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .basement_menu {
+    margin-top: 40px;
+    right: 195px;
+  }
+
+  .basement_contacts {
+    margin-top: 40px;
+    right: 12px;
+
+    img {
+      margin-left: 10px;
+    }
+  }
+
+  .basement_creat {
+    width: 269px;
+    margin-left: 13px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .basement_li_cont {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .link {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
